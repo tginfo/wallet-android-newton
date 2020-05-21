@@ -57,7 +57,7 @@ public class Toncenter {
         Gson gson = builder.create();
 
         Retrofit mAuthorizationRetrofit = new Retrofit.Builder()
-                .baseUrl("https://toncenter.com/api/test/v2/")
+                .baseUrl("https://toncenter.com/api/newton_test/v2/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .client(mHttpClient)
                 .build();

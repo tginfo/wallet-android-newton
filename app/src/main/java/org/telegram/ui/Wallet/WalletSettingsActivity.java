@@ -897,10 +897,10 @@ public class WalletSettingsActivity extends BaseFragment {
                         cell.setText(LocaleController.getString("WalletHelp", R.string.WalletHelp));
                         cell.recetTextColor();
                     } else if (position == helpWhatFullHeaderRow) {
-                        cell.setText(LocaleController.getString("WalletWhatIsGram", R.string.WalletWhatIsGram));
+                        cell.setText(LocaleController.getString("WalletWhatIsNewton", R.string.WalletWhatIsNewton));
                         cell.recetTextColor();
                     } else if (position == helpWhatFullTextRow) {
-                        cell.setText(LocaleController.getString("WalletWhatIsGramFull", R.string.WalletWhatIsGramFull));
+                        cell.setText(LocaleController.getString("WalletWhatIsNewtonFull", R.string.WalletWhatIsNewtonFull));
                         cell.setTextColor(Theme.getColor(Theme.key_windowBackgroundWhiteBlackText));
                     } else if (position == helpDifferenceHeaderRow) {
                         cell.setText(LocaleController.getString("WalletDifference", R.string.WalletDifference));
@@ -952,7 +952,7 @@ public class WalletSettingsActivity extends BaseFragment {
                         cell.setTextColor(Theme.getColor(Theme.key_windowBackgroundWhiteBlackText));
                         cell.setTag(Theme.key_windowBackgroundWhiteBlackText);
                     } else if (position == helpWhatRow) {
-                        cell.setText(LocaleController.getString("WalletWhatIsGram", R.string.WalletWhatIsGram), true);
+                        cell.setText(LocaleController.getString("WalletWhatIsNewton", R.string.WalletWhatIsNewton), true);
                         cell.setTextColor(Theme.getColor(Theme.key_windowBackgroundWhiteBlackText));
                         cell.setTag(Theme.key_windowBackgroundWhiteBlackText);
                     } else if (position == helpWhereRow) {
